@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pirate Bartender!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Jim+Nightshade' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header role="header">
+        <h1 class="titleHeader">Ahoy Matey!</h1>
+        <h2>Looking To Wet Yarr Pipes?</h2>
+        <h2>Well Pick Yarr Poison!</h2>
+    </header>
+    <main role="main">
+        <form>
+            <div class="formGroup">
+                <label for="isDrinkStrong">D'ya like yer drink strong?</label>
+                <select name="isDrinkStrong" class="isDrinkStrong">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup">
+                <label for="isDrinkSalty">Do ye like it with a salty tang?</label>
+                <select name="isDrinkSalty" class="isDrinkSalty">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup">
+                <label for="isDrinkBitter">Are ye a lubber who likes it bitter?</label>
+                <select name="isDrinkBitter" class="isDrinkBitter">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup">
+                <label for="isDrinkSweet">Would ye like a bit of sweetness with yer poison?</label>
+                <select name="isDrinkSweet" class="isDrinkSweet">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup">
+                <label for="isDrinkFruity">Are ye one for a fruity finish?</label>
+                <select name="isDrinkFruity" class="isDrinkFruity">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup button">
+                <button class="orderBtn">Place yer Arrder Matey!</button>
+            </div>
+        </form>
+
+    </main>
+    <section class="output">
+        <h3></h3>
+        <ul></ul>
+    </section>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
